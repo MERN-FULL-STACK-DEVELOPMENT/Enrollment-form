@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html demo form</title>
+        <meta charset = "utf-8"/>
+        <meta name = "authur" content = "Surendhar K"/>
+        <meta name = "description" content = "This html form is used to verify and store the bank account creation"/>
+        <meta name = "keywords" content = "html-forms"/>
+        <link rel = "stylesheet" href ="assets/css/style.css"/>
+    </head>
+    <main class="container">
+    <body>
+        <div class="form-center">
+        <form>
+        <h1 class = "enrollment-main-heading">STUDENT ENROLLMENT</h1>
+            <ul class = "list-styling">
+                <li class = "margin-in-application">
+                    <label for = "first-name">
+                        First Name:
+                    </label>
+                    <input type = "textbox" placeholder = "Enter your first name:" id = "first-name" name = "first-name" required/>
+                </li>
+                <br>
+                <li class = "margin-in-application">
+                    <label for = "last-name">
+                        Last Name:
+                    </label>
+                    <input type = "textbox" placeholder = "Enter your last name:" id = "last-name" name = "last-name" required/>
+                </li>
+                <br>
+                <li class = "margin-in-application">
+                   <label for = "register-number">
+                        Register Number:
+                   </label>
+                   <input type = "text" placeholder = "Enter your register number:" id = "register-number" name = "register-number" required/>
+                </li>
+                <br>
+                <li class = "margin-in-application">
+                    <label for = "phone-number">
+                         Phone Number:
+                    </label>
+                    <input type = "text" placeholder = "Enter your phone number:" id = "phone-number" name = "phone-number" required/>
+                 </li>
+                 <br>
+                 <li class = "margin-in-application">
+                    <label for = "gender">
+                         Gender:
+                    </label>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </li>
+                 <br>
+                 <li class = "margin-in-application">
+                    <label for = "DOB">
+                        Date of Birth:
+                    </label>
+                    <input type = "date" placeholder = "Enter your DOB" id = "DOB" name = "DOB" required/>
+                </li>
+                <br>
+                <li class = "margin-in-application">
+                    <label for = "email">
+                        Email:
+                    </label>
+                    <input type = "email" placeholder = "Enter your email" id = "email" name = "email" required/>
+                </li>
+                <br>
+                <li class = "margin-in-application">
+                    <label for = "department">
+                        Department:
+                    </label>
+                    <select name="gender">
+                    <option value="Department" ></option>
+                    <option value="CSE" >CSE</option>
+                    <option value="AIDS" >AIDS</option>
+                    <option value="AIML" >AIML</option>
+                    <option value="MECH" >MECH</option>
+                    <option value="CIVIL" >CIVIL</option>
+                    <option value="ECE" >ECE</option>
+                    <option value="EEE" >EEE</option>
+                </select>
+                </li>
+                <br>
+                <li class = "margin-in-application">
+                    <label for = "p-lan">
+                         Languages Known:
+                    </label>
+                    <input type="checkbox" name="C" id="C" value="C" checked>
+                    <label for="C">C</label>
+                    <input type="checkbox" name="C++" id="C++" value="C++" checked>
+                    <label for="C++">C++</label>
+                    <input type="checkbox" name="Python" id="Python" value="Python" checked>
+                    <label for="Python">Python</label>
+                    <input type="checkbox" name="Java" id="Java" value="Java" checked>
+                    <label for="Java">Java</label>
+                </li>
+                <br>
+                <li class = "margin-in-application">
+                    <label for = "resume">
+                        Resume(PDF):
+                    </label>
+                    <input type = "file" placeholder = "Upload pdf" id = "resume" name = "resume" required/>
+                <br>
+                </li>
+                <button class = "submit-button-style">Submit</button>
+            </ul>
+            
+        </form>
+    </div>
+    </body>
+    </main>
+</html>
